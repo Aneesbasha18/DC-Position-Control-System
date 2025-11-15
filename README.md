@@ -55,7 +55,7 @@ The equation (1) can be written as <br>
 5.	Analyse the output in open loop and closed loop.
 
 ## Program
-Kt=0.024
+```Kt=0.024
 J=3.2284e-6
 B=3.5077e-6
 Rf=4
@@ -67,7 +67,8 @@ step(ol_sys)
 title('open loop response')
 cl_sys=feedback(ol_sys,1)
 subplot(2,1,2)
-step(cl_sys)
+step(cl_sys)```
+
 title('closed loop response')
 ## Output
 ![exp 2 control system](https://github.com/user-attachments/assets/5fa647ed-4450-43e1-b5f3-9994d15f6c61)
