@@ -67,9 +67,11 @@ step(ol_sys)
 title('open loop response')
 cl_sys=feedback(ol_sys,1)
 subplot(2,1,2)
-step(cl_sys)```
+step(cl_sys)
 
 title('closed loop response')
+
+```
 ## Output
 ![exp 2 control system](https://github.com/user-attachments/assets/5fa647ed-4450-43e1-b5f3-9994d15f6c61)
 
