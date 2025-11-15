@@ -55,21 +55,23 @@ The equation (1) can be written as <br>
 5.	Analyse the output in open loop and closed loop.
 
 ## Program
-```Kt=0.024
-J=3.2284e-6
-B=3.5077e-6
-Rf=4
-Lf=2.75e-6
-s=tf('s")
-ol_sys=Kt/((Jss+Bs)(Rf+Lf*s))
-subplot(2,1,1)
-step(ol_sys)
-title('open loop response')
-cl_sys=feedback(ol_sys,1)
-subplot(2,1,2)
-step(cl_sys)
+```Kt=0.024 <br>
+J=3.2284e-6 <br>
+B=3.5077e-6 <br>
+Rf=4 <br>
+Lf=2.75e-6 <br>
+Lf=2.75e-6 <br>
+Lf=2.75e-6 <br>
+s=tf('s") <br>
+ol_sys=Kt/((Jss+Bs)(Rf+Lf*s)) <br>
+subplot(2,1,1) <br>
+step(ol_sys) <br>
+title('open loop response') <br>
+cl_sys=feedback(ol_sys,1) <br>
+subplot(2,1,2) <br>
+step(cl_sys) <br>
 
-title('closed loop response')
+title('closed loop response') <br>
 
 ```
 ## Output
