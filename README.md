@@ -55,6 +55,7 @@ The equation (1) can be written as <br>
 5.	Analyse the output in open loop and closed loop.
 
 ## Program
+
 Kt=0.024 <br>
 J=3.2284e-6 <br>
 B=3.5077e-6 <br>
